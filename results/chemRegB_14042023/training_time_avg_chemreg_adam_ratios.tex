@@ -1,0 +1,17 @@
+% best parameter values regarding \texttt{training_time_avg}
+\begin{longtable}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{parameter name} & \multicolumn{6}{c|}{\textbf{parameter values}} & \multicolumn{6}{c|}{\textbf{win ratios in \%}} & \multicolumn{6}{c|}{\textbf{avg. differences in \%}} & \textbf{best value} \\
+\hline
+neurons per layer & \multicolumn{2}{c:}{(40, 20)} & \multicolumn{2}{c:}{(50, 10)} & \multicolumn{2}{c|}{(30, 30, 10)} & \multicolumn{2}{c:}{87.5} & \multicolumn{2}{c:}{12.5} & \multicolumn{2}{c|}{  0} & \multicolumn{2}{c:}{0.151} & \multicolumn{2}{c:}{1.948} & \multicolumn{2}{c|}{11.851} & (40, 20) \\
+activation functions & \multicolumn{3}{c:}{ReLU} & \multicolumn{3}{c|}{sigmoid} & \multicolumn{3}{c:}{51.4} & \multicolumn{3}{c|}{48.6} & \multicolumn{3}{c:}{0.63} & \multicolumn{3}{c|}{0.614} & \textit{unclear} \\
+loss function & \multicolumn{3}{c:}{MSE} & \multicolumn{3}{c|}{log cosh} & \multicolumn{3}{c:}{87.5} & \multicolumn{3}{c|}{12.5} & \multicolumn{3}{c:}{0.126} & \multicolumn{3}{c|}{2.565} & MSE \\
+batch size & \multicolumn{2}{c:}{100} & \multicolumn{2}{c:}{1000} & \multicolumn{2}{c|}{10000} & \multicolumn{2}{c:}{  0} & \multicolumn{2}{c:}{  0} & \multicolumn{2}{c|}{100.0} & \multicolumn{2}{c:}{2448.099} & \multicolumn{2}{c:}{214.332} & \multicolumn{2}{c|}{    0} & 10000 \\
+optimizer & \multicolumn{3}{c:}{Adam} & \multicolumn{3}{c|}{cAdam} & \multicolumn{3}{c:}{100.0} & \multicolumn{3}{c|}{  0} & \multicolumn{3}{c:}{    0} & \multicolumn{3}{c|}{47.609} & Adam \\
+learning rate & \multicolumn{3}{c:}{0.01} & \multicolumn{3}{c|}{0.001} & \multicolumn{3}{c:}{43.1} & \multicolumn{3}{c|}{56.9} & \multicolumn{3}{c:}{0.527} & \multicolumn{3}{c|}{0.577} & \textit{unclear} \\
+\hline
+
+\caption{parameter influence regarding \textit{training time avg} for the chemReg Adam dataset}
+\label{table:training_time_avg_ratios_chemreg_adam}
+\end{longtable}
+

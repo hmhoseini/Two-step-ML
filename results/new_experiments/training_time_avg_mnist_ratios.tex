@@ -1,0 +1,13 @@
+% best parameter values regarding \texttt{training_time_avg}
+\begin{longtable}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{parameter name} & \multicolumn{6}{c|}{\textbf{parameter values}} & \multicolumn{6}{c|}{\textbf{win ratios in \%}} & \multicolumn{6}{c|}{\textbf{avg. differences in s}} & \textbf{best value} \\
+\hline
+last activation function & \multicolumn{3}{c:}{softmax} & \multicolumn{3}{c|}{sigmoid} & \multicolumn{3}{c:}{16.7} & \multicolumn{3}{c|}{83.3} & \multicolumn{3}{c:}{1.907} & \multicolumn{3}{c|}{0.014} & sigmoid \\
+optimizer & \multicolumn{1}{c:}{Adam} & \multicolumn{1}{c:}{my Adam} & \multicolumn{1}{c:}{cAdam} & \multicolumn{1}{c|}{fast cAdam} & \multicolumn{1}{c|}{cAdam_hat} & \multicolumn{1}{c|}{sgd} & \multicolumn{1}{c:}{  0} & \multicolumn{1}{c:}{  0} & \multicolumn{1}{c:}{  0} & \multicolumn{1}{c|}{  0} & \multicolumn{1}{c|}{  0} & \multicolumn{1}{c|}{100.0} & \multicolumn{1}{c:}{1.257} & \multicolumn{1}{c:}{29.006} & \multicolumn{1}{c:}{39.448} & \multicolumn{1}{c|}{29.311} & \multicolumn{1}{c|}{38.561} & \multicolumn{1}{c|}{    0} & sgd \\
+\hline
+
+\caption{parameter influence regarding \textit{training time avg} for the MNIST dataset}
+\label{table:variant_training_time_avg_ratios_mnist}
+\end{longtable}
+

@@ -1,0 +1,13 @@
+% best parameter values regarding \texttt{test_accuracy_avg}
+\begin{longtable}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{parameter name} & \multicolumn{6}{c|}{\textbf{parameter values}} & \multicolumn{6}{c|}{\textbf{win ratios in \%}} & \multicolumn{6}{c|}{\textbf{avg. differences}} & \textbf{best value} \\
+\hline
+last activation function & \multicolumn{3}{c:}{softmax} & \multicolumn{3}{c|}{sigmoid} & \multicolumn{3}{c:}{50.0} & \multicolumn{3}{c|}{50.0} & \multicolumn{3}{c:}{0.001} & \multicolumn{3}{c|}{0.093} & softmax \\
+optimizer & \multicolumn{1}{c:}{my Adam} & \multicolumn{1}{c:}{cAdam} & \multicolumn{1}{c:}{fast cAdam} & \multicolumn{1}{c|}{cAdam_hat} & \multicolumn{1}{c:}{50.0} & \multicolumn{1}{c:}{  0} & \multicolumn{1}{c:}{50.0} & \multicolumn{1}{c|}{  0} & \multicolumn{1}{c:}{0.004} & \multicolumn{1}{c:}{0.004} & \multicolumn{1}{c:}{0.0} & \multicolumn{1}{c|}{0.673} & \textit{unclear} \\
+\hline
+
+\caption{parameter influence regarding \textit{test accuracy avg} for the fcadam variants dataset}
+\label{table:variant_test_accuracy_avg_ratios_fcadam_variants}
+\end{longtable}
+

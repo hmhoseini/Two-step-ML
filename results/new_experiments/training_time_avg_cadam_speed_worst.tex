@@ -1,0 +1,20 @@
+\begin{longtable}{|l|l|l|l|l|>{\columncolor{worstColumnColor}}l|}
+\hline
+\textbf{parameter name} & \multicolumn{5}{c|}{\textbf{worst values}} \\
+\hline
+\textit{training time avg} &  64.142 &  64.513 &  65.244 &  68.823 &  69.434 \\
+{\color{equalParamColor} neurons per layer } & {\color{equalParamColor} (32,) } & {\color{equalParamColor} (32,) } & {\color{equalParamColor} (32,) } & {\color{equalParamColor} (32,) } & {\color{equalParamColor} (32,) } \\
+{\color{equalParamColor} activation functions } & {\color{equalParamColor} ReLU } & {\color{equalParamColor} ReLU } & {\color{equalParamColor} ReLU } & {\color{equalParamColor} ReLU } & {\color{equalParamColor} ReLU } \\
+last activation function & softmax & sigmoid & softmax & sigmoid & softmax \\
+{\color{equalParamColor} loss function } & {\color{equalParamColor} cat-cross } & {\color{equalParamColor} cat-cross } & {\color{equalParamColor} cat-cross } & {\color{equalParamColor} cat-cross } & {\color{equalParamColor} cat-cross } \\
+{\color{equalParamColor} training data percentage } & {\color{equalParamColor} 1.0 } & {\color{equalParamColor} 1.0 } & {\color{equalParamColor} 1.0 } & {\color{equalParamColor} 1.0 } & {\color{equalParamColor} 1.0 } \\
+{\color{equalParamColor} number of epochs } & {\color{equalParamColor} 50 } & {\color{equalParamColor} 50 } & {\color{equalParamColor} 50 } & {\color{equalParamColor} 50 } & {\color{equalParamColor} 50 } \\
+{\color{equalParamColor} batch size } & {\color{equalParamColor} 100 } & {\color{equalParamColor} 100 } & {\color{equalParamColor} 100 } & {\color{equalParamColor} 100 } & {\color{equalParamColor} 100 } \\
+optimizer                & my Adam & fast cAdam & fast cAdam & cAdam   & cAdam   \\
+{\color{equalParamColor} learning rate } & {\color{equalParamColor} 0.001 } & {\color{equalParamColor} 0.001 } & {\color{equalParamColor} 0.001 } & {\color{equalParamColor} 0.001 } & {\color{equalParamColor} 0.001 } \\
+{\color{equalParamColor} $\varepsilon$ } & {\color{equalParamColor} $10^{-7}$ } & {\color{equalParamColor} $10^{-7}$ } & {\color{equalParamColor} $10^{-7}$ } & {\color{equalParamColor} $10^{-7}$ } & {\color{equalParamColor} $10^{-7}$ } \\
+\hline
+
+\caption{worst settings regarding \textit{training time avg} for the cadam speed dataset}
+\label{table:variant_training_time_avg_worst_cadam_speed}
+\end{longtable}

@@ -1,0 +1,20 @@
+\begin{longtable}{|l|l|l|l|l|>{\columncolor{worstColumnColor}}l|}
+\hline
+\textbf{parameter name} & \multicolumn{5}{c|}{\textbf{worst values}} \\
+\hline
+\textit{training time}   &  678.56 &  691.95 &  692.12 &   696.0 &  697.49 \\
+{\color{equalParamColor} neurons per layer } & {\color{equalParamColor} (30, 30, 10) } & {\color{equalParamColor} (30, 30, 10) } & {\color{equalParamColor} (30, 30, 10) } & {\color{equalParamColor} (30, 30, 10) } & {\color{equalParamColor} (30, 30, 10) } \\
+activation functions     & sigmoid & ReLU    & ReLU    & sigmoid & sigmoid \\
+{\color{equalParamColor} last activation function } & {\color{equalParamColor} linear } & {\color{equalParamColor} linear } & {\color{equalParamColor} linear } & {\color{equalParamColor} linear } & {\color{equalParamColor} linear } \\
+loss function            & MSE     & log cosh & log cosh & log cosh & log cosh \\
+{\color{equalParamColor} training data percentage } & {\color{equalParamColor} 1 } & {\color{equalParamColor} 1 } & {\color{equalParamColor} 1 } & {\color{equalParamColor} 1 } & {\color{equalParamColor} 1 } \\
+{\color{equalParamColor} number of epochs } & {\color{equalParamColor} 500 } & {\color{equalParamColor} 500 } & {\color{equalParamColor} 500 } & {\color{equalParamColor} 500 } & {\color{equalParamColor} 500 } \\
+{\color{equalParamColor} batch size } & {\color{equalParamColor} 100 } & {\color{equalParamColor} 100 } & {\color{equalParamColor} 100 } & {\color{equalParamColor} 100 } & {\color{equalParamColor} 100 } \\
+{\color{equalParamColor} optimizer } & {\color{equalParamColor} cAdam } & {\color{equalParamColor} cAdam } & {\color{equalParamColor} cAdam } & {\color{equalParamColor} cAdam } & {\color{equalParamColor} cAdam } \\
+learning rate            & 0.01    & 0.01    & 0.001   & 0.001   & 0.01    \\
+{\color{equalParamColor} $\varepsilon$ } & {\color{equalParamColor} $10^{-7}$ } & {\color{equalParamColor} $10^{-7}$ } & {\color{equalParamColor} $10^{-7}$ } & {\color{equalParamColor} $10^{-7}$ } & {\color{equalParamColor} $10^{-7}$ } \\
+\hline
+
+\caption{worst settings regarding \textit{training time} for the chemReg cAdam avg dataset}
+\label{table:training_time_worst_chemreg_cadam_avg}
+\end{longtable}

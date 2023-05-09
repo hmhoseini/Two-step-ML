@@ -1,0 +1,23 @@
+\begin{longtable}{|l|>{\columncolor{bestColumnColor}}l|l|l|l|l|}
+\hline
+\textbf{parameter name} & \multicolumn{5}{c|}{\textbf{best values}} \\
+\hline
+\textit{'final val loss mae avg'} (avg) & 0.11571 & 0.11583 & 0.11888 & 0.12036 & 0.12084 \\
+test loss mae avg        & 0.11408 & 0.11452 & 0.11709 & 0.11653 & 0.12137 \\
+test loss avg            & 0.013018 & 0.0065444 & 0.0068427 & 0.013588 & 0.0073477 \\
+training time avg        & 515.53  & 540.87  & 63.538  & 61.619  & 536.95  \\
+{\color{equalParamColor} neurons per layer } & {\color{equalParamColor} (50, 10) } & {\color{equalParamColor} (50, 10) } & {\color{equalParamColor} (50, 10) } & {\color{equalParamColor} (50, 10) } & {\color{equalParamColor} (50, 10) } \\
+activation functions     & sigmoid & sigmoid & sigmoid & sigmoid & ReLU    \\
+{\color{equalParamColor} last activation function } & {\color{equalParamColor} linear } & {\color{equalParamColor} linear } & {\color{equalParamColor} linear } & {\color{equalParamColor} linear } & {\color{equalParamColor} linear } \\
+loss function            & MSE     & log cosh & log cosh & MSE     & log cosh \\
+{\color{equalParamColor} training data percentage } & {\color{equalParamColor} 1 } & {\color{equalParamColor} 1 } & {\color{equalParamColor} 1 } & {\color{equalParamColor} 1 } & {\color{equalParamColor} 1 } \\
+{\color{equalParamColor} number of epochs } & {\color{equalParamColor} 500 } & {\color{equalParamColor} 500 } & {\color{equalParamColor} 500 } & {\color{equalParamColor} 500 } & {\color{equalParamColor} 500 } \\
+batch size               & 100     & 100     & 1000    & 1000    & 100     \\
+{\color{equalParamColor} optimizer } & {\color{equalParamColor} Adam } & {\color{equalParamColor} Adam } & {\color{equalParamColor} Adam } & {\color{equalParamColor} Adam } & {\color{equalParamColor} Adam } \\
+learning rate            & 0.001   & 0.001   & 0.01    & 0.01    & 0.001   \\
+{\color{equalParamColor} $\varepsilon$ } & {\color{equalParamColor} $10^{-7}$ } & {\color{equalParamColor} $10^{-7}$ } & {\color{equalParamColor} $10^{-7}$ } & {\color{equalParamColor} $10^{-7}$ } & {\color{equalParamColor} $10^{-7}$ } \\
+\hline
+
+\caption{best settings regarding \textit{final val loss mae avg} for the chemReg Adam dataset}
+\label{table:final_val_loss_mae_avg_best_chemreg_adam}
+\end{longtable}

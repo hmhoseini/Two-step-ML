@@ -1,0 +1,17 @@
+% best parameter values regarding \texttt{final_val_loss_mae_avg}
+\begin{longtable}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{parameter name} & \multicolumn{6}{c|}{\textbf{parameter values}} & \multicolumn{6}{c|}{\textbf{win ratios in \%}} & \multicolumn{6}{c|}{\textbf{avg. differences}} & \textbf{best value} \\
+\hline
+neurons per layer & \multicolumn{2}{c:}{(40, 20)} & \multicolumn{2}{c:}{(50, 10)} & \multicolumn{2}{c|}{(30, 30, 10)} & \multicolumn{2}{c:}{29.2} & \multicolumn{2}{c:}{50.0} & \multicolumn{2}{c|}{20.8} & \multicolumn{2}{c:}{0.005} & \multicolumn{2}{c:}{0.003} & \multicolumn{2}{c|}{0.007} & (50, 10) \\
+activation functions & \multicolumn{3}{c:}{ReLU} & \multicolumn{3}{c|}{sigmoid} & \multicolumn{3}{c:}{50.0} & \multicolumn{3}{c|}{50.0} & \multicolumn{3}{c:}{0.003} & \multicolumn{3}{c|}{0.006} & ReLU \\
+loss function & \multicolumn{3}{c:}{MSE} & \multicolumn{3}{c|}{log cosh} & \multicolumn{3}{c:}{31.9} & \multicolumn{3}{c|}{68.1} & \multicolumn{3}{c:}{0.004} & \multicolumn{3}{c|}{0.002} & log cosh \\
+batch size & \multicolumn{2}{c:}{100} & \multicolumn{2}{c:}{1000} & \multicolumn{2}{c|}{10000} & \multicolumn{2}{c:}{52.1} & \multicolumn{2}{c:}{45.8} & \multicolumn{2}{c|}{2.1} & \multicolumn{2}{c:}{0.005} & \multicolumn{2}{c:}{0.005} & \multicolumn{2}{c|}{0.032} & \textit{unclear} \\
+optimizer & \multicolumn{3}{c:}{Adam} & \multicolumn{3}{c|}{cAdam} & \multicolumn{3}{c:}{41.7} & \multicolumn{3}{c|}{58.3} & \multicolumn{3}{c:}{0.005} & \multicolumn{3}{c|}{0.002} & cAdam \\
+learning rate & \multicolumn{3}{c:}{0.01} & \multicolumn{3}{c|}{0.001} & \multicolumn{3}{c:}{63.9} & \multicolumn{3}{c|}{36.1} & \multicolumn{3}{c:}{0.004} & \multicolumn{3}{c|}{0.015} & 0.01 \\
+\hline
+
+\caption{parameter influence regarding \textit{final val loss mae avg} for the chemReg cAdam dataset}
+\label{table:final_val_loss_mae_avg_ratios_chemreg_cadam}
+\end{longtable}
+

@@ -1,0 +1,23 @@
+\begin{longtable}{|l|l|l|l|l|>{\columncolor{worstColumnColor}}l|}
+\hline
+\textbf{parameter name} & \multicolumn{5}{c|}{\textbf{worst values}} \\
+\hline
+\textit{MAE}             & 0.18477 & 0.19365 & 0.19938 & 0.20834 & 0.22996 \\
+test loss                & 0.034141 & 0.018634 & 0.019747 & 0.043405 & 0.052883 \\
+final validation loss    & 0.036515 & 0.019063 & 0.020418 & 0.044762 & 0.051253 \\
+training time            & 17.242  & 17.453  & 17.19   & 17.624  & 16.914  \\
+neurons per layer        & (50, 10) & (50, 10) & (40, 20) & (30, 30, 10) & (40, 20) \\
+{\color{equalParamColor} activation functions } & {\color{equalParamColor} sigmoid } & {\color{equalParamColor} sigmoid } & {\color{equalParamColor} sigmoid } & {\color{equalParamColor} sigmoid } & {\color{equalParamColor} sigmoid } \\
+{\color{equalParamColor} last activation function } & {\color{equalParamColor} linear } & {\color{equalParamColor} linear } & {\color{equalParamColor} linear } & {\color{equalParamColor} linear } & {\color{equalParamColor} linear } \\
+loss function            & MSE     & log cosh & log cosh & MSE     & MSE     \\
+{\color{equalParamColor} training data percentage } & {\color{equalParamColor} 1 } & {\color{equalParamColor} 1 } & {\color{equalParamColor} 1 } & {\color{equalParamColor} 1 } & {\color{equalParamColor} 1 } \\
+{\color{equalParamColor} number of epochs } & {\color{equalParamColor} 500 } & {\color{equalParamColor} 500 } & {\color{equalParamColor} 500 } & {\color{equalParamColor} 500 } & {\color{equalParamColor} 500 } \\
+{\color{equalParamColor} batch size } & {\color{equalParamColor} 10000 } & {\color{equalParamColor} 10000 } & {\color{equalParamColor} 10000 } & {\color{equalParamColor} 10000 } & {\color{equalParamColor} 10000 } \\
+{\color{equalParamColor} optimizer } & {\color{equalParamColor} Adam } & {\color{equalParamColor} Adam } & {\color{equalParamColor} Adam } & {\color{equalParamColor} Adam } & {\color{equalParamColor} Adam } \\
+{\color{equalParamColor} learning rate } & {\color{equalParamColor} 0.001 } & {\color{equalParamColor} 0.001 } & {\color{equalParamColor} 0.001 } & {\color{equalParamColor} 0.001 } & {\color{equalParamColor} 0.001 } \\
+{\color{equalParamColor} $\varepsilon$ } & {\color{equalParamColor} $10^{-7}$ } & {\color{equalParamColor} $10^{-7}$ } & {\color{equalParamColor} $10^{-7}$ } & {\color{equalParamColor} $10^{-7}$ } & {\color{equalParamColor} $10^{-7}$ } \\
+\hline
+
+\caption{worst settings regarding \textit{test loss} for the chemReg cAdam avg dataset}
+\label{table:test_loss_worst_chemreg_cadam_avg}
+\end{longtable}

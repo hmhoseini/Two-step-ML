@@ -1,0 +1,13 @@
+% best parameter values regarding \texttt{training_time_avg}
+\begin{longtable}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{parameter name} & \multicolumn{6}{c|}{\textbf{parameter values}} & \multicolumn{6}{c|}{\textbf{win ratios in \%}} & \multicolumn{6}{c|}{\textbf{avg. differences in s}} & \textbf{best value} \\
+\hline
+last activation function & \multicolumn{3}{c:}{softmax} & \multicolumn{3}{c|}{sigmoid} & \multicolumn{3}{c:}{  0} & \multicolumn{3}{c|}{100.0} & \multicolumn{3}{c:}{0.938} & \multicolumn{3}{c|}{    0} & sigmoid \\
+optimizer & \multicolumn{2}{c:}{my Adam} & \multicolumn{2}{c:}{cAdam} & \multicolumn{2}{c|}{fast cAdam} & \multicolumn{2}{c:}{100.0} & \multicolumn{2}{c:}{  0} & \multicolumn{2}{c|}{  0} & \multicolumn{2}{c:}{    0} & \multicolumn{2}{c:}{5.723} & \multicolumn{2}{c|}{1.472} & my Adam \\
+\hline
+
+\caption{parameter influence regarding \textit{training time avg} for the cadam speed dataset}
+\label{table:variant_training_time_avg_ratios_cadam_speed}
+\end{longtable}
+

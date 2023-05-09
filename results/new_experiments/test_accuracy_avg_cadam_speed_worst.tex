@@ -1,0 +1,25 @@
+\begin{longtable}{|l|l|l|l|l|>{\columncolor{worstColumnColor}}l|}
+\hline
+\textbf{parameter name} & \multicolumn{5}{c|}{\textbf{worst values}} \\
+\hline
+\textit{test accuracy avg} &  0.9657 & 0.96456 & 0.96444 &  0.9644 & 0.96356 \\
+final val accuracy avg   & 0.96507 & 0.96162 & 0.96185 & 0.96165 & 0.96062 \\
+final val accuracy std   & 0.00061779 & 0.0029343 & 0.0014667 & 0.0017868 & 0.0022234 \\
+final val accuracy min   & 0.96425 & 0.95642 & 0.9605  & 0.95975 & 0.95675 \\
+final val accuracy max   & 0.966   & 0.96533 & 0.96467 & 0.96492 & 0.96367 \\
+training time avg        & 65.244  & 64.142  & 69.434  & 62.669  & 64.513  \\
+{\color{equalParamColor} neurons per layer } & {\color{equalParamColor} (32,) } & {\color{equalParamColor} (32,) } & {\color{equalParamColor} (32,) } & {\color{equalParamColor} (32,) } & {\color{equalParamColor} (32,) } \\
+{\color{equalParamColor} activation functions } & {\color{equalParamColor} ReLU } & {\color{equalParamColor} ReLU } & {\color{equalParamColor} ReLU } & {\color{equalParamColor} ReLU } & {\color{equalParamColor} ReLU } \\
+last activation function & softmax & softmax & softmax & sigmoid & sigmoid \\
+{\color{equalParamColor} loss function } & {\color{equalParamColor} cat-cross } & {\color{equalParamColor} cat-cross } & {\color{equalParamColor} cat-cross } & {\color{equalParamColor} cat-cross } & {\color{equalParamColor} cat-cross } \\
+{\color{equalParamColor} training data percentage } & {\color{equalParamColor} 1.0 } & {\color{equalParamColor} 1.0 } & {\color{equalParamColor} 1.0 } & {\color{equalParamColor} 1.0 } & {\color{equalParamColor} 1.0 } \\
+{\color{equalParamColor} number of epochs } & {\color{equalParamColor} 50 } & {\color{equalParamColor} 50 } & {\color{equalParamColor} 50 } & {\color{equalParamColor} 50 } & {\color{equalParamColor} 50 } \\
+{\color{equalParamColor} batch size } & {\color{equalParamColor} 100 } & {\color{equalParamColor} 100 } & {\color{equalParamColor} 100 } & {\color{equalParamColor} 100 } & {\color{equalParamColor} 100 } \\
+optimizer                & fast cAdam & my Adam & cAdam   & my Adam & fast cAdam \\
+{\color{equalParamColor} learning rate } & {\color{equalParamColor} 0.001 } & {\color{equalParamColor} 0.001 } & {\color{equalParamColor} 0.001 } & {\color{equalParamColor} 0.001 } & {\color{equalParamColor} 0.001 } \\
+{\color{equalParamColor} $\varepsilon$ } & {\color{equalParamColor} $10^{-7}$ } & {\color{equalParamColor} $10^{-7}$ } & {\color{equalParamColor} $10^{-7}$ } & {\color{equalParamColor} $10^{-7}$ } & {\color{equalParamColor} $10^{-7}$ } \\
+\hline
+
+\caption{worst settings regarding \textit{test accuracy avg} for the cadam speed dataset}
+\label{table:variant_test_accuracy_avg_worst_cadam_speed}
+\end{longtable}
